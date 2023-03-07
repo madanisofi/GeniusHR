@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+    <Files *.php>
+        Order deny,Allow
+        Deny from all
+    </Files>
+</IfModule>
